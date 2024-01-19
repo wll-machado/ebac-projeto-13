@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://img.freepik.com/fotos-premium/verao-sazonal-estilo-anime-fundo-paisagem-lago-de-montanha-e-relaxar-vibracoes-anime-fundo-ou-papel-de-parede-generative-ai_473751-1212.jpg?w=900');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    height: 534px;
+}
+
+@media screen and (max-width: 390px) {
+    img{
+        height: 65vh;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+    .card img {
+        height: 30vh;
+    }
+}

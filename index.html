@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Projeto Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://img.freepik.com/fotos-gratis/yasaka-pagoda-e-sannen-zaka-street-em-kyoto-japao_335224-10.jpg?w=740&t=st=1705685715~exp=1705686315~hmac=87bb3f1b2d9266617c7c72e923d7f39757b5023de5f78f0c8fe569b8aff14346" class="d-block w-100" alt="Imagem 1">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="https://img.freepik.com/fotos-gratis/noite-natureza-paisagem-galaxia-montanha-agua-estrela-beleza-generativa-ai_188544-9736.jpg?w=826&t=st=1705685717~exp=1705686317~hmac=605346968c1eb77c49b37c314dcfc146496524e9f00dfac86d76b629cecac63a" class="d-block w-100" alt="Imagem 2">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="https://img.freepik.com/fotos-gratis/pico-de-montanha-majestoso-em-paisagem-tranquila-de-inverno-gerada-por-ia_188544-15662.jpg?w=826&t=st=1705685718~exp=1705686318~hmac=984c90c8fcf0bc76609ab36f6e85396b29d5d5cfd0007ad47f413b3af76959ee" class="d-block w-100" alt="Imagem 3">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="https://img.freepik.com/fotos-gratis/projeto-de-paisagem-pop-brilhante_23-2149213461.jpg?w=740&t=st=1705685720~exp=1705686320~hmac=19518b1bb31b1427cf26bcb9209a762af8f3354babf2fc83bb7527e7226608d1" class="d-block w-100" alt="Imagem 3">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="https://img.freepik.com/fotos-gratis/cenario-urbano-cyberpunk_23-2150712616.jpg?w=826&t=st=1705685830~exp=1705686430~hmac=1c0982692f71ada288b4e8cf30d4b4babdf0cbf975bbe14fb62ecd0efc838268" class="d-block w-100" alt="Imagem 3">
+                </div>
+            </div>
+            <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel"  data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel"  data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel"  data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carousel"  data-bs-slide-to="4"></button>
+            </div>
+        </div>
+    
+        
+        <div class="row mt-5">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="https://images5.alphacoders.com/133/1333744.png" class="card-img-top" alt="Imagem do Card 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Yokohama</h5>
+                        <p class="card-text">maior Chinatown do Japão</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="https://images5.alphacoders.com/104/1042723.jpg" class="card-img-top" alt="Imagem do Card 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Kyushu</h5>
+                        <p class="card-text">Ilha das cerejeiras no japão</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="https://images2.alphacoders.com/133/1336516.png" class="card-img-top" alt="Imagem do Card 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Hokkaido</h5>
+                        <p class="card-text">o coração do esqui e da neve no Japão</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
